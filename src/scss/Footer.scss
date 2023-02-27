@@ -1,0 +1,147 @@
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.Footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background-color: #343742ff; ;
+    color: #d4dae3ff;
+    padding-top: 50px;
+    font-size: 15px;
+
+    .footerinfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: auto;
+        padding: 0 20em 100px 20em;
+        flex-wrap: wrap;
+    }
+
+    .footerabout {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 20%;
+
+        img {
+            width: 150px;
+            padding-bottom: 10px;
+        }
+
+    }
+
+
+
+
+    .footerkontakt {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-decoration: none;
+    }
+
+   
+
+    .footerinfobottom {
+        border-top: #474b5aff 1px solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 20em;
+
+        p {
+            margin-top: 5px;
+            color: #f8f8faff;
+        }
+
+        span {
+            color: lightgray;
+        }
+
+        div {
+            color: #f8f8faff;
+        }
+
+    }
+
+    .footersocial {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        .socialmediaicon:hover {
+            border: 1px solid lightgray;
+            border-radius: 50%;
+            color: lightgray;
+            background-color: #f8f8faff;
+            transition: .5s ease;
+        }
+
+        a:hover {
+            border: none;
+            background-color: transparent;
+            color: none;
+        }
+
+        div {
+            width: 30px;
+            height: 30px;
+            padding: 6px;
+            border-radius: 50%;
+            border: 1px solid #f8f8faff;
+            cursor: pointer;
+
+
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .Footer{
+
+        .footerinfo {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            padding: 0 5% 0 5% !important;
+    
+            .footerabout {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                width: 100%;
+    
+            }
+    
+    
+            .footerkontakt {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                text-decoration: none;
+                margin-top: 30px;
+            }
+    
+    
+        }
+        .footerinfobottom {
+            padding:5px!important;
+        }
+    }
+}
+
+@media screen and (max-width:425px){
+
+    button{
+        width: 20%;
+    }
+    
+}
