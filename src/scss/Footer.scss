@@ -1,9 +1,11 @@
-footer{
-    position: absolute;
-    bottom: 0;
-}
+// footer{
+//     position: absolute;
+//     bottom: 0;
+// }
 
 .Footer {
+    // position: absolute;
+    bottom: 0;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -12,15 +14,14 @@ footer{
     width: 100%;
     background-color: #343742ff; ;
     color: #d4dae3ff;
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: 15px;
 
     .footerinfo {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         width: auto;
-        padding: 0 20em 100px 20em;
+        padding: 0 20em 20px 20em;
         flex-wrap: wrap;
     }
 
@@ -28,12 +29,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-content: center;
-        width: 20%;
-
-        img {
-            width: 150px;
-            padding-bottom: 10px;
-        }
+        width: auto;
 
     }
 
@@ -42,9 +38,14 @@ footer{
 
     .footerkontakt {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
         text-decoration: none;
+
+        a{
+            color:whitesmoke;
+            text-decoration: none;
+        }
     }
 
    
@@ -54,10 +55,13 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         padding: 5px 20em;
 
+        
+
         p {
-            margin-top: 5px;
+            margin-top: 15px;
             color: #f8f8faff;
         }
 
@@ -70,11 +74,14 @@ footer{
         }
 
     }
-
     .footersocial {
         display: flex;
         flex-direction: row;
         gap: 10px;
+
+        .socialmediaicon{
+           font-size: 30px;
+        }
 
         .socialmediaicon:hover {
             border: 1px solid lightgray;
@@ -91,8 +98,8 @@ footer{
         }
 
         div {
-            width: 30px;
-            height: 30px;
+            width: 44px;
+            height: 44px;
             padding: 6px;
             border-radius: 50%;
             border: 1px solid #f8f8faff;

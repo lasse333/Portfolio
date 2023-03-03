@@ -1,6 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// CSS HEX
 
 
+
+.App{
+    font-family: "Flaticon", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "fontawesome";
+    src: url("./scss/Fonts/fontawesome-webfont.eot");
+    src: url("./scss/Fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),
+      url("./scss/Fonts/fontawesome-webfont.woff") format("woff"),
+      url("./scss/Fonts/fontawesome-webfont.ttf") format("truetype"),
+      url("./scss/Fonts/fontawesome-webfont.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+// Public SCSS files
 @import './scss/Header.scss';
-@import './scss/Navbar.scss';
 @import './scss/Footer.scss';
 @import './scss/FrontPage.scss';
+@import './scss/Projekt.scss';
+@import './scss/OmMig.scss';
+
+// FONTS
+@import './scss/Fonts/flaticon';
