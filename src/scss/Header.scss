@@ -3,13 +3,15 @@
 .header {
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    // position: fixed;
+    position: fixed;
     width: 100%;
     z-index: 3;
+    padding-left: 75px;
+    padding-right: 75px;
   }
   
   .header ul {
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
@@ -22,11 +24,19 @@
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
     font-size: 20px;
+    color:black;
+
+
+    &:active{
+      color:gray;
+    }
+
   }
   
   .header li a:hover,
   .header .menu-btn:hover {
     background-color: #f4f4f4;
+    transition: ease 0.5s;
   }
   
   .header .logoname {
@@ -41,7 +51,7 @@
     align-items: center;
 
     h1{
-      font-size: 35px;
+      font-size: 1em;
     }
 
   }

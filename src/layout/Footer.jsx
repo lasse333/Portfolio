@@ -7,6 +7,7 @@ import { FaLinkedinIn, FaGithub, FaFacebookF } from 'react-icons/fa'
 const Footer = () => {
   const today = new Date();
   const year = today.getFullYear();
+  
   return (
     <footer className='Footer'>
       <div className="footerinfo">

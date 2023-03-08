@@ -12,7 +12,20 @@
 
 .ProjektTeaser{
     width: 90%;
-    height: 400px;
     background-color: aquamarine;
     margin: auto;
+    display: flex;
+}
+
+.projekteaserbox{
+    width: 35%;
+    height: 400px;
+    background-color: blue;
+    margin: 20px;
+}
+
+.tilprojektknap{
+    width: 45%;
+    height: 100px;
+    background-color: aliceblue;
 }

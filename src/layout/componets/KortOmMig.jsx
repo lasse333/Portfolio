@@ -17,9 +17,9 @@ const KortOmMig = () => {
 
     return (
         <div className='KortOmMigBox'>
-            {/* Kort Om Mig
+            Kort Om Mig
             <br/>
-            Jeg er {getAge("2002/09/10")} år gammel */}
+            Jeg er {getAge("2002/09/10")} år
 
         </div>
 

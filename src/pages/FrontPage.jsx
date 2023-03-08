@@ -8,8 +8,8 @@ const FrontPage = () => {
   return (
     <div>
       <Hero />
-      <KortOmMig />
       FrontPage
+      <KortOmMig />
       <ProjektTeaser />
     </div>
   )
