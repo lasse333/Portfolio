@@ -15,13 +15,33 @@
     background-color: aquamarine;
     margin: auto;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px ;
 }
 
 .projekteaserbox{
-    width: 35%;
-    height: 400px;
+    width: 40%;
+    height: 500px;
     background-color: blue;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+
+    .imgbox{
+        width: 95%;
+        height: 45%;
+        background-color: bisque;
+        margin:0 auto 5px auto;
+    }
+
+    .textbox{
+        width: 95%;
+        height: 200px;
+        background-color: white;
+        margin:0 auto 5px auto ;
+    }
 }
 
 .tilprojektknap{
