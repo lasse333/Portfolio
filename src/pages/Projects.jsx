@@ -1,9 +1,35 @@
-import React from 'react'
+import React from "react";
+import { Helmet } from "react-helmet";
 
 const Projects = () => {
   return (
-    <div>Projects</div>
-  )
-}
+    <div>
+      <Helmet>
+        <title>Jonas Rishøj | Projekter</title>
+      </Helmet>
 
-export default Projects
+      <div className="headline"></div>
+
+      <div className="Projekter">
+        <div className="ProjekterBox">
+          <div className="imgbox"></div>
+          <div className="textbox"></div>
+        </div>
+        <div className="ProjekterBox">
+          <div className="imgbox"></div>
+          <div className="textbox"></div>
+        </div>
+        <div className="ProjekterBox">
+          <div className="imgbox"></div>
+          <div className="textbox"></div>
+        </div>
+        <div className="ProjekterBox">
+          <div className="imgbox"></div>
+          <div className="textbox"></div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Projects;

@@ -1,0 +1,40 @@
+.headline{
+    height: 275px;
+    width: 90%;
+    margin: auto;
+    background-color: aqua;
+}
+
+.Projekter{
+    width: 90%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px;
+}
+
+.ProjekterBox{
+    width: 40%;
+    height: 500px;
+    background-color: blue;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+
+    .imgbox{
+        width: 95%;
+        height: 45%;
+        background-color: bisque;
+        margin:0 auto 5px auto;
+    }
+
+    .textbox{
+        width: 95%;
+        height: 200px;
+        background-color: white;
+        margin:0 auto 5px auto ;
+    }
+}
