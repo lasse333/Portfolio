@@ -31,9 +31,9 @@ const KortOmMig = () => {
                     <br />
                     Uddannet Webudvikler - November 2022
                     <br />
-                    3d-College studerne med Multimedie Integrator i Fokus
+                    3D-College studernde med Multimedie Integrator i Fokus
                     <br />
-                    Bopæl i Hinnerup - 20 min med tog fra Aarhus Hovedbanegård
+                    Bopæl i Hinnerup - ca. 20 min med tog fra Aarhus Hovedbanegård
                 </p>
 
             </div>

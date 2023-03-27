@@ -2,7 +2,16 @@ import React from 'react'
 
 const HvemErJeg = () => {
   return (
-    <div className='hvemerjeg'>HvemErJeg</div>
+    <div className='hvemerjeg'>
+      <p>Mit navnn er Jonas Rishøj Christensen
+        <br />
+        Ung og moden mand på 20 år
+        <br />
+        Studernende på 3D-College i Grenaa - Multimedie Integrator i Fokus
+        <br />
+        Bopæl i Hinnerup - ca. 20 minutters tog køresel fra Aarhus
+      </p>
+    </div>
   )
 }
 
