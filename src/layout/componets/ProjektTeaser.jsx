@@ -13,7 +13,7 @@ const ProjektTeaser = () => {
         <div className="imgbox"></div>
         <div className="textbox"></div>
       </div>
-      <Link to="/projekter">
+      <Link to="#">
       <button className='tilprojektknap'> SE FLERE PROJEKTER</button>
       </Link>
     </div>

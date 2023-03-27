@@ -17,10 +17,26 @@ const KortOmMig = () => {
 
     return (
         <div className='KortOmMigBox'>
-            Kort Om Mig
-            <br/>
-            Jeg er {getAge("2002/09/10")} år
+            <div className="litleinfobox">
 
+                <h1>Kort om mig</h1>
+                <div className="airboble"></div>
+                <div className="airboble"></div>
+                <div className="airboble"></div>
+                <div className="airboble"></div>
+                <p>
+                    Mit navn er <strong>Jonas Rishøj Christensen</strong>
+                    <br />
+                    Ung mand på { getAge( "2002/09/10" ) } år
+                    <br />
+                    Uddannet Webudvikler - November 2022
+                    <br />
+                    3d-College studerne med Multimedie Integrator i Fokus
+                    <br />
+                    Bopæl i Hinnerup - 20 min med tog fra Aarhus Hovedbanegård
+                </p>
+
+            </div>
         </div>
 
     )

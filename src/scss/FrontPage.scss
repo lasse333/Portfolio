@@ -1,58 +1,83 @@
-.hero{
-    width: 100%;
-    height: 400px;
-    background-color: antiquewhite;
+.hero {
+  width: 100%;
+  height: 400px;
+  background-color: antiquewhite;
+  overflow: hidden;
 }
 
-.KortOmMigBox{
-    width: 100%;
-    height: 350px;
-    background-color: aqua;
-}
+.KortOmMigBox {
+  width: 100%;
+  height: 350px;
+  background-color: transparent;
+  display: flex;
+  
 
-.ProjektTeaser{
-    width: 90%;
-    background-color: aquamarine;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px ;
-}
-
-.projekteaserbox{
-    width: 40%;
-    height: 500px;
-    background-color: blue;
-    margin: 20px;
+  .litleinfobox {
+    width: 80%;
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    margin: auto;
+    padding:10px;
+    
+  }
 
-    .imgbox{
-        width: 95%;
-        height: 45%;
-        background-color: bisque;
-        margin:0 auto 5px auto;
-    }
+  h1 {
+    font-size: 60px;
+  }
 
-    .textbox{
-        width: 95%;
-        height: 200px;
-        background-color: white;
-        margin:0 auto 5px auto ;
-    }
+  p {
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5;
+  }
 }
 
+.ProjektTeaser {
+  width: 90%;
+  background-color: aquamarine;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
 
-.tilprojektknap{
-    width: 100%;
-    height: 100px;
-    font-size: 30px;
-    font-weight: bold;
-    background-color: aliceblue;
-    padding: 0 20px;
-    cursor: pointer;
-    border:solid 1.5px black;
-    border-radius: 15px;
+.projekteaserbox {
+  width: 40%;
+  height: 500px;
+  background-color: blue;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+
+  .imgbox {
+    width: 95%;
+    height: 45%;
+    background-color: bisque;
+    margin: 0 auto 5px auto;
+  }
+
+  .textbox {
+    width: 95%;
+    height: 200px;
+    background-color: white;
+    margin: 0 auto 5px auto;
+  }
+}
+
+.tilprojektknap {
+  width: 100%;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: aliceblue;
+  padding: 0 20px;
+  cursor: pointer;
+  border: solid 1.5px black;
+  border-radius: 15px;
 }

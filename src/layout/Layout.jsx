@@ -7,6 +7,7 @@ const Layout = () => {
   return (
     <div className='Layout'>
       <Header />
+      {/* <div className="clearboth"></div> */}
       <Outlet />
       <Footer />
     </div>

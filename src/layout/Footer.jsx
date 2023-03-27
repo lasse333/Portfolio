@@ -19,14 +19,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="footerinfobottom">
-        <p><span>Jonas Rishøj</span> &copy; { year } All Rights Reserved</p>
+        <p><span>Jonas Rishøj</span>&copy; { year } All Rights Reserved</p>
 
         <ul className="footersocial">
-          {/* { contactinformation && */ }
           <Link to="https://facebook.com/jonasrishoej"><div className='socialmediaicon'><FaFacebookF /></div></Link>
           <Link to="https://github.com/JohnnyJones069"><div className='socialmediaicon'><FaGithub /></div></Link>
           <Link to="https://linkedin.com/in/jonas-rish%C3%B8j-christensen-1ab4b7227/"><div className='socialmediaicon'><FaLinkedinIn /></div></Link>
-          {/* } */ }
         </ul>
       </div>
     </footer>

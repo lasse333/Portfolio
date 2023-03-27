@@ -2,7 +2,7 @@ import React from 'react'
 
 const HvadKanjeg = () => {
   return (
-    <div>HvadKanjeg</div>
+    <div className='hvadkanjeg'>HvadKanjeg</div>
   )
 }
 
