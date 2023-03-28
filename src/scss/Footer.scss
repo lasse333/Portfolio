@@ -112,6 +112,7 @@
 
 @media screen and (max-width:800px) {
     .Footer{
+        padding-top: 0;
 
         .footerinfo {
             display: flex;
@@ -135,20 +136,17 @@
                 width: 100%;
                 text-decoration: none;
                 margin-top: 30px;
+                margin-bottom: 10px;
+                
             }
     
     
         }
         .footerinfobottom {
             padding:5px!important;
+            display: flex;
+            flex-direction:column;
+            gap:20px;
         }
     }
-}
-
-@media screen and (max-width:425px){
-
-    button{
-        width: 20%;
-    }
-    
 }

@@ -1,7 +1,7 @@
 .hero {
   width: 100%;
   height: 400px;
-  background-color: antiquewhite;
+  background-color: transparent;
   overflow: hidden;
 }
 
@@ -25,7 +25,7 @@
     
   }
 
-  h1 {
+  h2 {
     font-size: 60px;
   }
 
@@ -38,7 +38,7 @@
 
 .ProjektTeaser {
   width: 90%;
-  background-color: aquamarine;
+  background-color: transparent;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -49,24 +49,39 @@
 .projekteaserbox {
   width: 40%;
   height: 500px;
-  background-color: blue;
+  background-color: rgb(240, 240, 240);
   margin: 20px;
+  padding-top:10px;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  border-radius: 10px;
 
   .imgbox {
-    width: 95%;
+    width: 100%;
     height: 45%;
-    background-color: bisque;
-    margin: 0 auto 5px auto;
+    background-color: transparent;
+    margin: 0 auto; 
+    overflow: hidden;
+    text-align: center;
+
+    .img{
+      height: 100%;
+      border-radius: 10px;
+    }
+
   }
 
   .textbox {
-    width: 95%;
-    height: 200px;
+    width: 88%;
     background-color: white;
     margin: 0 auto 5px auto;
+    padding:10px;
+    text-align: center;
+
+    p{
+      margin-top:20px;
+    }
   }
 }
 
@@ -81,3 +96,40 @@
   border: solid 1.5px black;
   border-radius: 15px;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .hero{
+    display: none;
+  }
+
+  .litleinfobox{
+    width: 90%;
+    
+    h2{
+      font-size: 40px;
+    }
+
+    
+  }
+
+  .ProjektTeaser{
+    width: 95%;
+
+    .projekteaserbox{
+      width: 90%;
+
+      .imgbox{
+        margin: 0 auto;
+
+        .img{
+          width: 100%;
+        }
+      }
+
+    }
+  }
+
+}
+
