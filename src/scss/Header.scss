@@ -24,6 +24,7 @@ header.sticky {
   list-style: none;
   overflow: hidden;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 .header li a {
@@ -57,8 +58,11 @@ header.sticky {
   column-gap: 15px;
   align-items: center;
 
-  h1 {
+  .name {
     font-size: 1em;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    padding:10px;
   }
 }
 
@@ -157,5 +161,20 @@ header.sticky {
   }
   .header .menu-icon {
     display: none;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .header{
+    padding-left: 0;
+    padding-right: 0;
+
+    .logoname{
+      padding:0 10px;
+      font-size: 25px;
+      column-gap: 10px;
+      margin-top: 5px;
+    }
   }
 }

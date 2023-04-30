@@ -10,7 +10,7 @@ const Header = () => {
 
   useEffect( () => {
     const handleScroll = () => {
-      setSticky( window.scrollY > 75 );
+      setSticky( window.scrollY > 0.01 );
     };
     window.addEventListener( "scroll", handleScroll );
     return () => window.removeEventListener( "scroll", handleScroll );

@@ -19,9 +19,7 @@ const KortOmMig = () => {
         <div className='KortOmMigBox'>
             <div className="litleinfobox">
 
-                <h1>Kort om mig</h1>
-                <div className="airboble"></div>
-                <div className="airboble"></div>
+                <h2>Kort om mig</h2>
                 <div className="airboble"></div>
                 <div className="airboble"></div>
                 <p>

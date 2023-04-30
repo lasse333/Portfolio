@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footerinfobottom">
-        <p><span>Jonas Rishøj</span>&copy; { year } All Rights Reserved</p>
+        <p><span>Jonas Rishøj</span> &copy; 2023 All Rights Reserved</p>
 
         <ul className="footersocial">
           <Link to="https://facebook.com/jonasrishoej"><div className='socialmediaicon'><FaFacebookF /></div></Link>
