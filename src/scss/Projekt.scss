@@ -1,34 +1,92 @@
 
-.Projekter{
+.Projekter {
     width: 90%;
-    background-color: aquamarine;
+    background-color: transparent;
+    margin: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: auto;
     padding: 20px;
-}
-
-.ProjekterBox{
+  }
+  
+  .ProjekterBox {
     width: 40%;
     height: 500px;
-    background-color: blue;
+    background-color: rgb(240, 240, 240);
     margin: 20px;
+    padding-top:10px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-
-    .imgbox{
-        width: 95%;
-        height: 45%;
-        background-color: bisque;
-        margin:0 auto 5px auto;
+    border-radius: 10px;
+    gap:10px;
+  
+    .imgbox {
+      width: 95%;
+      height: 50%;
+      background-color: transparent;
+      margin: 0 auto; 
+      overflow: hidden;
+      text-align: center;
+      border-radius: 10px;
+  
+      .img{
+        height: 100%;
+        width: auto;
+        border-radius: 10px;
+      }
+  
     }
 
-    .textbox{
-        width: 95%;
-        height: 200px;
-        background-color: white;
-        margin:0 auto 5px auto ;
+    .underudvikling{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:30px;
+        background-color: rgb(194, 194, 194) ;
+        width: 90%;
+        border-radius: 10px;
+        margin:auto;
+        h2{
+            font-size: 40px;
+          }
+      }
+  
+    .textbox {
+      width: 88%;
+      background-color: white;
+      margin: 0 auto 5px auto;
+      padding:10px;
+      text-align: center;
+      border-radius: 5px;
+  
+      p{
+        margin-top:20px;
+      }
     }
-}
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+  
+  
+    .Projekter{
+      width: 95%;
+  
+      .ProjekterBox{
+        width: 90%;
+  
+        .imgbox{
+          margin: 0 auto;
+  
+          .img{
+            width: 100%;
+          }
+        }
+  
+      }
+    }
+  
+  }
+  
+  

@@ -14,6 +14,7 @@ const FrontPage = () => {
       <Hero />
       <div className="airboble"></div>
       <KortOmMig />
+      <h2 className='smugkig'>Tag et smugkig på 2 af mine projekter</h2>
       <ProjektTeaser />
     </div>
   )

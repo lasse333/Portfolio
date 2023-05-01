@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header className={ `${ sticky ? "sticky header" : "header"}`}>
       <div className="logoname">
-        <Link to="/"><img src={ logo } alt="Logo med Mine Initialer J.R." /></Link>
+        <Link to="/"><img src={ logo } alt="Logo med Mine Initialer J.R. som står for Jonas Rishøj" /></Link>
         <h1 className="name">
             Jonas Rishøj
             <br />
@@ -31,8 +31,8 @@ const Header = () => {
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
       <ul className="menu">
-        <li><NavLink to="#" end>Projekter</NavLink></li>
-        <li><NavLink to="#" end>Om mig</NavLink></li>
+        <li><NavLink to="projekter" end>Projekter</NavLink></li>
+        <li><NavLink to="ommig" end>Om mig</NavLink></li>
         
       </ul>
     </header>

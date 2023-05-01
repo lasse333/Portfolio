@@ -19,25 +19,36 @@
 }
 
 .headline{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 275px;
   width: 90%;
   margin: auto;
-  background-color: aqua;
+  background-color: rgb(190, 190, 190);
   overflow: hidden;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 0;
+  padding:10px;
+  border-radius: 10px;
   h1{
   font-size: 50px;
   }
   p{
     font-size: 20px;
+    text-align: center;
     bottom: 0;
   }
 }
 
 .clearboth{
   clear:both;
+}
+
+@media only screen and (max-width: 600px){
+  .headline{
+    width: 95%;
+    border-radius: 10px;
+  }
 }
 
 @font-face {

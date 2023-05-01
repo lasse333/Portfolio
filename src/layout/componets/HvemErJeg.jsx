@@ -3,7 +3,8 @@ import React from 'react'
 const HvemErJeg = () => {
   return (
     <div className='hvemerjeg'>
-      <p>Mit navnn er Jonas Rishøj Christensen
+      <p>
+        Mit navn er <strong>Jonas Rishøj</strong>
         <br />
         Ung og moden mand på 20 år
         <br />

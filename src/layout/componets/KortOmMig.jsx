@@ -23,7 +23,7 @@ const KortOmMig = () => {
                 <div className="airboble"></div>
                 <div className="airboble"></div>
                 <p>
-                    Mit navn er <strong>Jonas Rishøj Christensen</strong>
+                    Mit navn er <strong>Jonas Rishøj</strong>
                     <br />
                     Ung mand på { getAge( "2002/09/10" ) } år
                     <br />

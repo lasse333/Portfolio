@@ -2,28 +2,102 @@
     width: 90%;
     display: flex;
     justify-content: space-around;
-    background-color: antiquewhite;
+    background-color: rgb(240, 240, 240);
     margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
 }
 
 .info{
     width: 45%;
-    background-color:bisque;
+    // background-color:bisque;
 }
 
 .aboutimg{
     width: 45%;
-    background-color: brown;
+    height: 45%;
     padding: auto;
+
+    img{
+        width:100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 50%;
+    }
 }
 
 .hvemerjeg{
     width: 90%;
+    margin: 10px 0;
 
-    background-color: beige;
 }
 
 .hvadkanjeg{
     width: 90%;
-    background-color: rgb(158, 126, 87);
 }
+
+.uddannelse{
+    margin:10px 0;
+}
+
+.arbejdermed{
+    ul{
+        list-style-type:none ;
+    }
+}
+
+
+@media only screen and (min-width:800px ){
+
+    .ommigcontainer{
+        width: 60%;
+    }
+
+    .aboutimg{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .ommigcontainer{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+
+    .hvemerjeg{
+        width: auto;
+        margin-bottom: 20px;
+        p{
+            text-align: center;
+        }
+    }
+
+    .hvadkanjeg{
+        width: 100%;
+
+        .uddannelse, .arbejdermed{
+            text-align: center;
+        }
+    }
+
+    .aboutimg{
+        width: 70%;
+        padding: auto;
+        margin-bottom: 10px;
+    
+        img{
+            width: 100%;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+    }
+  
+  }
