@@ -1,24 +1,22 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 // CSS HEX
 
-
-
-.App{
+.App {
   font-family: "Flaticon", Arial, Helvetica, sans-serif;
 }
 
-.airboble{
+.airboble {
   width: 100%;
   height: 20px;
   background-color: transparent;
 }
 
-.headline{
+.headline {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,47 +26,57 @@
   margin: auto;
   background-color: rgb(190, 190, 190);
   overflow: hidden;
-  padding:10px;
+  padding: 10px;
   border-radius: 10px;
-  h1{
-  font-size: 50px;
+  h1 {
+    font-size: 50px;
   }
-  p{
+  p {
     font-size: 20px;
     text-align: center;
     bottom: 0;
   }
 }
 
-.clearboth{
-  clear:both;
+.Layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+
+  div {
+    flex: 1;
+  }
 }
 
-@media only screen and (max-width: 600px){
-  .headline{
+.clearboth {
+  clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+  .headline {
     width: 95%;
     border-radius: 10px;
   }
 }
 
 @font-face {
-    font-family: "fontawesome";
-    src: url("./scss/Fonts/fontawesome-webfont.eot");
-    src: url("./scss/Fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),
-      url("./scss/Fonts/fontawesome-webfont.woff") format("woff"),
-      url("./scss/Fonts/fontawesome-webfont.ttf") format("truetype"),
-      url("./scss/Fonts/fontawesome-webfont.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+  font-family: "fontawesome";
+  src: url("./scss/Fonts/fontawesome-webfont.eot");
+  src: url("./scss/Fonts/fontawesome-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./scss/Fonts/fontawesome-webfont.woff") format("woff"),
+    url("./scss/Fonts/fontawesome-webfont.ttf") format("truetype"),
+    url("./scss/Fonts/fontawesome-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
 // Public SCSS files
-@import './scss/Header.scss';
-@import './scss/Footer.scss';
-@import './scss/FrontPage.scss';
-@import './scss/Projekt.scss';
-@import './scss/OmMig.scss';
+@import "./scss/Header.scss";
+@import "./scss/Footer.scss";
+@import "./scss/FrontPage.scss";
+@import "./scss/Projekt.scss";
+@import "./scss/OmMig.scss";
 
 // FONTS
-@import './scss/Fonts/flaticon';
+@import "./scss/Fonts/flaticon";
